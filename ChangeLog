@@ -1,0 +1,35 @@
+new in gtk2-0.8
+---------------
+ * changes by Neil Roberts (bpeeluk@yahoo.co.uk)
+   - convert to gtk2mm
+   - non-blocking I/O with a Glib::IOSource
+   - Reorganise the drawing of the custom widgets
+   - Adapted the layout to use Gtk::Table
+   - Redesigned the logo as an SVG and set it to be the app icon
+     
+new in 0.7
+----------
+ * record input selector in menu
+
+new in 0.6
+----------
+ * options and rc code added
+ * options for sampfreq, sampnr, audiodevice, windowsize, trigger
+ * adaptive sample scaling in osziview
+ * bugfix '4' in lcdview had upper horizotal bar set
+ * full schmidt trigger before actual freq measurement
+ * going from pos level1 trigger to neg level2 trigger
+ * S16 support for better resolution (even on small signals)
+
+new in 0.5
+----------
+ * sample frequency adjustable up to 48000 Hz (instead of 44000)
+ * bugfix for newer OSS, which don't support small fragments
+ * About-Box
+
+new in 0.4
+----------
+ * trigger defaults to 0.6
+ * pointer in logview better visible
+ * update of logview when scale changed in menu
+ * "text_width" replaced by "string_width"

@@ -1,0 +1,78 @@
+WARNING : THIS IS AN OLD APP
+
+Fretboard comes into two versions :
+- the official, available here : http://github.com/khamidou/fretboard/tree/master
+- this deprecated version.
+
+This version is probably faster than the bleeding edge, but it's unmaintanable and has unneeded
+dependecies (originally, I based fretboard on gtkguitune, a gtkmm-based guitar tuner, which 
+explains that it depends on gtkmm though it's a daemon).
+Use it only if you find the official version too slow.
+
+Fretboard,
+
+    Copyright (c) 2009 Karim Hamidou <karim@lambda-expr.org>
+    Based on gtkguitune, Copyright (c) 1999 Florian Berger	                  
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License Version 2 as
+    published by the Free Software Foundation;
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+
+What is Fretboard ?
+--------------------
+   Fretboard is a program that lets you use a musical instrument as an
+   input device.
+   Fretboard works only under the X Window system, however, it may be
+   possible to port it to other systems than linux.
+   It is actually an oscilloscope which counts the passes between two
+   trigger levels per time, calculates the frequency and shows the
+   tone on a tone-scale.
+
+Resources
+---------
+   You need to have gtk and gtk-- (1.2.1 or later), as well as
+   xautomation (http://hoopajoo.net/projects/xautomation.html)
+   installed.
+   
+Customizing
+-----------
+
+   After having installed fretboard, you'll probably want to
+   customize its behaviour. This is for that purpose that I
+   added Python support to it. Each time a note is read,
+   fretboard calls a python function named callback() defined
+   in ~/.fretboard/callback.py.
+   For more informations, see the commented examples in the sampleconfig 
+   directory.
+
+Design
+------
+   Fretboard was _not_ properly designed. Don't read the code,
+   don't try to modify it, especially during nights of full moon. 
+   I had better things to do than to write beautiful code, 
+   so I reused this code. Yes, it uses gtkmm though it's a daemon.
+   Yes, it allocs loads of things it won't use like menus, etc. No I don't
+   think I will fix it because it works, and that I have better things to
+   do than fixing some unbeliveably ugly code (you don't belive me ? 
+   open guitune.cc and go to line 445. Now, try to understand what does the
+   function proc_audio do).
+
+How to build
+------------
+   (1) ./configure
+   (2) make
+   (3) make install
+   (4) edit you startup files to launch the fretboard daemon
+       on startup.
+
+   ...ready? shred!

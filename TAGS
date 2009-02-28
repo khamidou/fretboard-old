@@ -1,0 +1,1198 @@
+
+aboutbox.c,273
+static const char GPL_text[GPL_text6,180
+static const char copy_text[copy_text19,919
+static const char title_text[title_text22,1065
+static GtkWidget * about_dialog 25,1136
+static gint about_destroy_cb(29,1180
+static void about_ok_cb(36,1332
+void about_cb(42,1465
+
+aboutbox.h,60
+#define APPNAME 5,69
+#define GUITUNE_VERSION_STRING 6,101
+
+aclocal.m4,674
+[m4_pattern_forbid([^_?PKG_[A-Z_]+$]$48,2251
+m4_pattern_allow(49,2289
+	AC_PATH_TOOL(52,2441
+	_pkg_min_version=55,2517
+		AC_MSG_RESULT(58,2698
+  m4_ifval(81,3403
+        _pkg_short_errors_supported=108,4064
+	        $1[]_PKG_ERROR$1[]_PKG_ERRO143,5200
+	$1[]_CFLAG$1[]_CFLA173,6094
+  $1_TRUE=292,10951
+      fi393,14999
+    none) break 395,15017
+          grep 'not supported' conftest.err) >/dev/null 2>&1; then 417,16256
+        am_cv_$1_dependencies_compiler_type=418,16331
+  am_depcomp=454,17244
+  AC_SUBST(578,22225
+    AC_MSG_ERROR(581,22384
+    CYGPATH_W=588,22598
+   am__include=737,27706
+      am__include=745,27936
+  am_missing_run=785,29078
+
+config.h,582
+#define HAVE_FCNTL_H 5,181
+#define HAVE_INTTYPES_H 8,265
+#define HAVE_MEMORY_H 11,350
+#define HAVE_STDINT_H 14,433
+#define HAVE_STDLIB_H 17,516
+#define HAVE_STRINGS_H 20,600
+#define HAVE_STRING_H 23,684
+#define HAVE_SYS_IOCTL_H 26,770
+#define HAVE_SYS_STAT_H 29,858
+#define HAVE_SYS_TYPES_H 32,946
+#define HAVE_UNISTD_H 35,1032
+#define PACKAGE 38,1079
+#define PACKAGE_BUGREPORT 41,1188
+#define PACKAGE_NAME 44,1265
+#define PACKAGE_STRING 47,1349
+#define PACKAGE_TARNAME 50,1435
+#define PACKAGE_VERSION 53,1508
+#define STDC_HEADERS 56,1591
+#define VERSION 59,1647
+
+config.h.in,563
+#undef HAVE_FCNTL_H4,122
+#undef HAVE_INTTYPES_H7,203
+#undef HAVE_MEMORY_H10,285
+#undef HAVE_STDINT_H13,365
+#undef HAVE_STDLIB_H16,445
+#undef HAVE_STRINGS_H19,526
+#undef HAVE_STRING_H22,607
+#undef HAVE_SYS_IOCTL_H25,690
+#undef HAVE_SYS_STAT_H28,775
+#undef HAVE_SYS_TYPES_H31,860
+#undef HAVE_UNISTD_H34,943
+#undef PACKAGE37,987
+#undef PACKAGE_BUGREPORT40,1082
+#undef PACKAGE_NAME43,1155
+#undef PACKAGE_STRING46,1235
+#undef PACKAGE_TARNAME49,1317
+#undef PACKAGE_VERSION52,1386
+#undef STDC_HEADERS55,1465
+#undef VERSION58,1518
+#undef const61,1595
+
+config.log,665
+#define PACKAGE_NAME 437,15333
+#define PACKAGE_TARNAME 438,15357
+#define PACKAGE_VERSION 439,15384
+#define PACKAGE_STRING 440,15411
+#define PACKAGE_BUGREPORT 441,15437
+#define PACKAGE 442,15466
+#define VERSION 443,15495
+#define STDC_HEADERS 444,15517
+#define HAVE_SYS_TYPES_H 445,15540
+#define HAVE_SYS_STAT_H 446,15567
+#define HAVE_STDLIB_H 447,15593
+#define HAVE_STRING_H 448,15617
+#define HAVE_MEMORY_H 449,15641
+#define HAVE_STRINGS_H 450,15665
+#define HAVE_INTTYPES_H 451,15690
+#define HAVE_STDINT_H 452,15716
+#define HAVE_UNISTD_H 453,15740
+#define HAVE_FCNTL_H 454,15764
+#define HAVE_SYS_IOCTL_H 455,15787
+#define HAVE_UNISTD_H 456,15814
+
+config.status,7870
+debug=7,199
+  NULLCMD=19,517
+as_cr_letters=36,834
+    PATH_SEPARATOR=48,1248
+  as_unset=57,1415
+  *) as_save_IFS=75,1854
+  *) as_save_IFS=$IFS; IFS=75,1854
+  as_myself=89,2218
+  { (exit 93,2353
+  { (exit 1); exit 93,2353
+    eval $as_var=111,2821
+  as_expr=120,3053
+  as_basename=126,3173
+  as_lineno_1=157,3600
+  as_dirname=201,5114
+  *)   ECHO_C=211,5289
+  esac;212,5310
+  ECHO_N=214,5322
+  as_expr=219,5434
+  as_ln_s=233,5679
+  as_ln_s=241,6054
+  as_mkdir_p=249,6214
+  as_test_x=256,6321
+    as_ls_L_option=259,6384
+	esac;270,6570
+	???[sx]*):;;*)false;272,6629
+	???[sx]*):;;*)false;;esac;272,6629
+as_executable_p=276,6678
+    ac_option=360,9033
+    ac_cs_recheck=369,9226
+    echo "$ac_cs_version"; exit 371,9319
+    debug=373,9401
+    CONFIG_FILES=376,9462
+    CONFIG_HEADERS=380,9589
+    echo "$ac_cs_usage"; exit 388,9869
+    ac_cs_silent=391,10022
+   { (exit 396,10164
+   { (exit 1); exit 396,10164
+  *) ac_config_targets=398,10196
+ac_configure_extra_args=405,10296
+  ac_configure_extra_args=409,10364
+  CONFIG_SHELL=414,10572
+    "depfiles") CONFIG_COMMANDS=439,11053
+    "Makefile") CONFIG_FILES=440,11116
+    "icon/Makefile") CONFIG_FILES=441,11173
+   { (exit 445,11384
+   { (exit 1); exit 445,11384
+  tmp=477,12547
+s,499,13077
+s,@SHELL@@SHELL499,13077
+s,@SHELL@,|#_!!_#|/bin/sh,sh499,13077
+s,500,13105
+s,@PATH_SEPARATOR@@PATH_SEPARATOR500,13105
+s,501,13136
+s,@PACKAGE_NAME@@PACKAGE_NAME501,13136
+s,502,13164
+s,@PACKAGE_TARNAME@@PACKAGE_TARNAME502,13164
+s,503,13195
+s,@PACKAGE_VERSION@@PACKAGE_VERSION503,13195
+s,504,13226
+s,@PACKAGE_STRING@@PACKAGE_STRING504,13226
+s,505,13256
+s,@PACKAGE_BUGREPORT@@PACKAGE_BUGREPORT505,13256
+s,506,13289
+s,@exec_prefix@@exec_prefix506,13289
+s,@exec_prefix@,|#_!!_#|${$506,13289
+s,507,13325
+s,@prefix@@prefix507,13325
+s,@prefix@,|#_!!_#|/usr/local,local507,13325
+s,508,13357
+s,@program_transform_name@@program_transform_name508,13357
+s,@program_transform_name@,|#_!!_#|s\,x\,x\x508,13357
+s,509,13404
+s,@bindir@@bindir509,13404
+s,@bindir@,|#_!!_#|${exec_prefix}/bin,bin509,13404
+s,510,13444
+s,@sbindir@@sbindir510,13444
+s,@sbindir@,|#_!!_#|${exec_prefix}/sbin,sbin510,13444
+s,511,13486
+s,@libexecdir@@libexecdir511,13486
+s,@libexecdir@,|#_!!_#|${exec_prefix}/libexec,libexec511,13486
+s,512,13534
+s,@datarootdir@@datarootdir512,13534
+s,@datarootdir@,|#_!!_#|${prefix}/share,share512,13534
+s,513,13576
+s,@datadir@@datadir513,13576
+s,@datadir@,|#_!!_#|${$513,13576
+s,514,13613
+s,@sysconfdir@@sysconfdir514,13613
+s,@sysconfdir@,|#_!!_#|${prefix}/etc,etc514,13613
+s,515,13652
+s,@sharedstatedir@@sharedstatedir515,13652
+s,@sharedstatedir@,|#_!!_#|${prefix}/com,com515,13652
+s,516,13695
+s,@localstatedir@@localstatedir516,13695
+s,@localstatedir@,|#_!!_#|${prefix}/var,var516,13695
+s,517,13737
+s,@includedir@@includedir517,13737
+s,@includedir@,|#_!!_#|${prefix}/include,include517,13737
+s,518,13780
+s,@oldincludedir@@oldincludedir518,13780
+s,@oldincludedir@,|#_!!_#|/usr/include,include518,13780
+s,519,13821
+s,@docdir@@docdir519,13821
+s,@docdir@,|#_!!_#|${datarootdir}/doc/${$519,13821
+s,520,13872
+s,@infodir@@infodir520,13872
+s,@infodir@,|#_!!_#|${datarootdir}/info,info520,13872
+s,521,13914
+s,@htmldir@@htmldir521,13914
+s,@htmldir@,|#_!!_#|${$521,13914
+s,522,13946
+s,@dvidir@@dvidir522,13946
+s,@dvidir@,|#_!!_#|${$522,13946
+s,523,13977
+s,@pdfdir@@pdfdir523,13977
+s,@pdfdir@,|#_!!_#|${$523,13977
+s,524,14008
+s,@psdir@@psdir524,14008
+s,@psdir@,|#_!!_#|${$524,14008
+s,525,14038
+s,@libdir@@libdir525,14038
+s,@libdir@,|#_!!_#|${exec_prefix}/lib,lib525,14038
+s,526,14078
+s,@localedir@@localedir526,14078
+s,@localedir@,|#_!!_#|${datarootdir}/locale,locale526,14078
+s,527,14124
+s,@mandir@@mandir527,14124
+s,@mandir@,|#_!!_#|${datarootdir}/man,man527,14124
+s,528,14164
+s,@DEFS@@DEFS528,14164
+s,@DEFS@,|#_!!_#|-DHAVE_CONFIG_H,DHAVE_CONFIG_H528,14164
+s,529,14199
+s,@ECHO_C@@ECHO_C529,14199
+s,530,14221
+s,@ECHO_N@@ECHO_N530,14221
+s,@ECHO_N@,|#_!!_#|-n,n530,14221
+s,531,14245
+s,@ECHO_T@@ECHO_T531,14245
+s,532,14267
+s,@LIBS@@LIBS532,14267
+s,533,14287
+s,@build_alias@@build_alias533,14287
+s,534,14314
+s,@host_alias@@host_alias534,14314
+s,535,14340
+s,@target_alias@@target_alias535,14340
+s,536,14368
+s,@INSTALL_PROGRAM@@INSTALL_PROGRAM536,14368
+s,@INSTALL_PROGRAM@,|#_!!_#|${$536,14368
+s,537,14409
+s,@INSTALL_SCRIPT@@INSTALL_SCRIPT537,14409
+s,@INSTALL_SCRIPT@,|#_!!_#|${$537,14409
+s,538,14449
+s,@INSTALL_DATA@@INSTALL_DATA538,14449
+s,@INSTALL_DATA@,|#_!!_#|${INSTALL} -m m538,14449
+s,539,14494
+s,@am__isrc@@am__isrc539,14494
+s,540,14518
+s,@CYGPATH_W@@CYGPATH_W540,14518
+s,@CYGPATH_W@,|#_!!_#|echo,echo540,14518
+s,541,14547
+s,@PACKAGE@@PACKAGE541,14547
+s,@PACKAGE@,|#_!!_#|gtkguitune,gtkguitune541,14547
+s,542,14580
+s,@VERSION@@VERSION542,14580
+s,543,14606
+s,@ACLOCAL@@ACLOCAL543,14606
+s,544,14686
+s,@AUTOCONF@@AUTOCONF544,14686
+s,@AUTOCONF@,|#_!!_#|${SHELL} /home/floh/gtkguitune/missing --run autoconf,544,14686
+s,545,14763
+s,@AUTOMAKE@@AUTOMAKE545,14763
+s,546,14845
+s,@AUTOHEADER@@AUTOHEADER546,14845
+s,@AUTOHEADER@,|#_!!_#|${SHELL} /home/floh/gtkguitune/missing --run autoheader,546,14845
+s,547,14926
+s,@MAKEINFO@@MAKEINFO547,14926
+s,@MAKEINFO@,|#_!!_#|${SHELL} /home/floh/gtkguitune/missing --run makeinfo,547,14926
+s,548,15003
+s,@install_sh@@install_sh548,15003
+s,@install_sh@,|#_!!_#|$(SHELL) /home/floh/gtkguitune/install-sh,sh548,15003
+s,549,15070
+s,@STRIP@@STRIP549,15070
+s,550,15091
+s,@INSTALL_STRIP_PROGRAM@@INSTALL_STRIP_PROGRAM550,15091
+s,@INSTALL_STRIP_PROGRAM@,|#_!!_#|$(install_sh) -c -s,s550,15091
+s,551,15147
+s,@mkdir_p@@mkdir_p551,15147
+s,@mkdir_p@,|#_!!_#|/bin/mkdir -p,p551,15147
+s,552,15183
+s,@AWK@@AWK552,15183
+s,@AWK@,|#_!!_#|gawk,gawk552,15183
+s,553,15206
+s,@SET_MAKE@@SET_MAKE553,15206
+s,554,15230
+s,@am__leading_dot@@am__leading_dot554,15230
+s,555,15262
+s,@AMTAR@@AMTAR555,15262
+s,@AMTAR@,|#_!!_#|${SHELL} /home/floh/gtkguitune/missing --run tar,555,15262
+s,556,15331
+s,@am__tar@@am__tar556,15331
+s,557,15380
+s,@am__untar@@am__untar557,15380
+s,558,15418
+s,@CC@@CC558,15418
+s,@CC@,|#_!!_#|gcc,gcc558,15418
+s,559,15439
+s,@CFLAGS@@CFLAGS559,15439
+s,@CFLAGS@,|#_!!_#|-g -O2,O2559,15439
+s,560,15467
+s,@LDFLAGS@@LDFLAGS560,15467
+s,561,15490
+s,@CPPFLAGS@@CPPFLAGS561,15490
+s,562,15514
+s,@ac_ct_CC@@ac_ct_CC562,15514
+s,@ac_ct_CC@,|#_!!_#|gcc,gcc562,15514
+s,563,15541
+s,@EXEEXT@@EXEEXT563,15541
+s,564,15563
+s,@OBJEXT@@OBJEXT564,15563
+s,@OBJEXT@,|#_!!_#|o,o564,15563
+s,565,15586
+s,@DEPDIR@@DEPDIR565,15586
+s,@DEPDIR@,|#_!!_#|.deps,deps565,15586
+s,566,15613
+s,@am__include@@am__include566,15613
+s,@am__include@,|#_!!_#|include,include566,15613
+s,567,15647
+s,@am__quote@@am__quote567,15647
+s,568,15672
+s,@AMDEP_TRUE@@AMDEP_TRUE568,15672
+s,569,15698
+s,@AMDEP_FALSE@@AMDEP_FALSE569,15698
+s,570,15726
+s,@AMDEPBACKSLASH@@AMDEPBACKSLASH570,15726
+s,571,15758
+s,@CCDEPMODE@@CCDEPMODE571,15758
+s,@CCDEPMODE@,|#_!!_#|depmode=depmode571,15758
+  :[FHLC]) ac_mode=$ac_tag; continue;598,17312
+  case $ac_mode$ac_tag in600,17358
+  :[FH]-) ac_tag=605,17552
+  :[FH]*) ac_tag=606,17575
+  ac_save_IFS=608,17620
+    ac_file_inputs=619,17761
+	   *) test -f "$srcdir/$ac_f" && ac_f=630,18101
+   { (exit 634,18300
+   { (exit 1); exit 634,18300
+      ac_file_inputs=636,18341
+      configure_input=645,18724
+    esac652,18933
+  ac_dir=656,18957
+   { (exit 719,20420
+   { (exit 1); exit 719,20420
+  ac_builddir=720,20451
+  ac_dir_suffix=725,20553
+  *)  ac_top_build_prefix=730,20817
+  esac 731,20868
+ac_abs_top_builddir=733,20883
+    ac_srcdir=744,21195
+    ac_top_srcdir=745,21232
+    ac_srcdir=748,21313
+ac_abs_srcdir=752,21461
+  *) ac_INSTALL=763,21625
+  ac_MKDIR_P=765,21680
+
+configure,35
+   function prototypes 3100,87549
+
+configure.in,14
+AC_INIT(2,67
+
+COPYING,1342
+		       Version 2,33
+ Copyright (C) 1989, 1991 Free Software Foundation,4,64
+     59 Temple Place,5,121
+     59 Temple Place, Suite 5,121
+     59 Temple Place, Suite 330, Boston,5,121
+ of this license document,7,244
+  To protect your rights,28,1301
+running the Program is not restricted,74,3700
+notices that refer to this License and to the absence of any warranty;83,4219
+your rights to work written entirely by you; rather,125,6531
+In addition,129,6705
+with the Program 130,6776
+    1 and 2 above on a medium customarily used for software interchange; or,140,7294
+    b) Accompany it with a written offer,142,7372
+    customarily used for software interchange; or,147,7708
+integrity of the free software distribution system,218,11648
+system;222,11904
+    This program is free software;296,15798
+    the Free Software Foundation;298,15944
+    the Free Software Foundation; either version 2 of the License,298,15944
+    the Free Software Foundation; either version 2 of the License, or298,15944
+parts of the General Public License.  Of course,322,17046
+be called something other than `show w'w323,17120
+You should also get your employer 326,17251
+  Yoyodyne,330,17440
+  Ty Coon,334,17628
+proprietary programs.  If your program is a subroutine library,337,17734
+library.  If this is what you want to do,339,17882
+
+depcomp,863
+scriptversion=4,82
+Run PROGRAMS ARGS to compile a file,40,1421
+depfile=68,2234
+  gccflag=80,2784
+   dashmflag=86,2917
+  stat=109,3618
+    gccflag=129,4290
+  alpha=140,4490
+  exit 165,5686
+  stat=174,5821
+  if test -f "$tmpdepfile"; then  # yes,182,5932
+  dir=218,7292
+    tmpdepfile1=222,7481
+  stat=279,9081
+  dir=305,10104
+    tmpdepfile1=309,10293
+   dir=344,11278
+      tmpdepfile1=362,12305
+  IFS=414,13754
+      shift422,13838
+      shift # $arg427,13914
+  test -z "$dashmflag" && dashmflag=432,13959
+  exit 451,14774
+  cleared=465,14983
+      cleared=470,15067
+      set fnord "$@" "$arg"; shift 474,15129
+    -*|$object)$object477,15309
+      set fnord "$@" "$arg"; shift 480,15341
+  obj_suffix=483,15395
+  IFS=510,16201
+      shift518,16285
+      shift # $arg523,16361
+  IFS=544,16980
+	shift556,17136
+  exit 576,17622
+
+FB_logo.xpm,44
+static char * FB_logo_xpm[FB_logo_xpm2,10
+
+guitune.cc,1152
+double KAMMERTON,51,1316
+double KAMMERTON, KAMMERTON_LOG;51,1316
+void MainWidget::setTuningNorm(53,1350
+void MainWidget::setTuningWien(60,1483
+void MainWidget::setTuningPhys(67,1616
+void MainWidget::setTuningEqui(75,1750
+void MainWidget::setTuningNat(81,1825
+void MainWidget::setScaleUS(87,1898
+void MainWidget::setScaleUSAlt(92,1975
+void MainWidget::setScaleGE(97,2059
+void MainWidget::setScaleGEAlt(102,2140
+void MainWidget::showLogView(109,2230
+void MainWidget::hideLogView(114,2287
+void MainWidget::showOszi(119,2344
+void MainWidget::hideOszi(124,2395
+double MainWidget::getTrigger(129,2446
+void MainWidget::setSampFreqVal(134,2516
+void MainWidget::setSampFreq(140,2605
+void MainWidget::setSampNrVal(151,2825
+void MainWidget::setSampNr(157,2908
+void MainWidget::setTrigger(164,3019
+void MainWidget::setTriggerVal(171,3136
+void MainWidget::setAdaptive(180,3313
+void MainWidget::setAdaptiveVal(188,3442
+void MainWidget::setDSPName(195,3541
+void MainWidget::init_audio(203,3687
+void MainWidget::uninit_audio(282,6065
+MainWidget::MainWidget(293,6216
+bool MainWidget::proc_audio(446,10966
+MainWidget::~MainWidget(541,13516
+
+guitune.h,26
+class MainWidget 34,1084
+
+guitune.o,15
+ZZ20,15737
+
+INSTALL,23
+Basic Installation1,0
+
+install-sh,492
+scriptversion=4,62
+  doit_exec=53,2074
+    -c)c133,3886
+    -C) copy_on_change=135,3898
+    -d) dir_arg=137,3929
+    -g) chgrpcmd=139,3953
+    -m) mode=144,4034
+	u_plus_rw=214,5528
+	u_plus_rw=221,5683
+    dst=237,5898
+    dst=256,6389
+      dstdir=269,6742
+      dstdir_status=301,7371
+	umask=312,7628
+	  .*0[02][02] | .[02][02] | .[02]) mkdir_umask=316,7736
+	    mkdir_umask=319,7801
+	  *) mkdir_umask=323,7928
+	  mkdir_mode=329,8099
+	    tmpdir=341,8355
+	esac;371,9406
+
+lcdview.cc,191
+LCDView::LCDView(26,836
+LCDView::~LCDView(111,5299
+void LCDView::set(117,5357
+void LCDView::invalidate(124,5520
+bool LCDView::on_expose_event(139,5898
+void LCDView::on_realize(178,6886
+
+lcdview.h,22
+class LCDView 30,970
+
+lcdview.o,29
+ELFELF1,0
+÷?UU82,30796
+
+logview.cc,698
+const char *note_ger[note_ger34,920
+const char *note_us[note_us35,1003
+const char *note_ger_alt[note_ger_alt36,1086
+const char *note_us_alt[note_us_alt37,1173
+const char **note;note39,1261
+const char *tuning_nat[tuning_nat41,1281
+LogView::LogView(47,1512
+LogView::~LogView(76,2368
+int LogView::lfreq_pos(79,2394
+int LogView::pos_note(86,2548
+void LogView::draw_arrow(92,2631
+void LogView::change_lfreq(119,3236
+void LogView::setScale(136,3581
+void LogView::draw_it(158,3929
+bool LogView::on_expose_event(323,9672
+bool LogView::on_button_press_event(333,9900
+void LogView::set_nat_tuning(349,10235
+void LogView::invalidate(355,10326
+void LogView::invalidate_arrow(370,10704
+
+logview.h,304
+class LogView 30,929
+    enum {us_scale,LogView::us_scale39,1028
+    enum {us_scale,us_scale_alt,LogView::us_scale_alt39,1028
+    enum {us_scale,us_scale_alt,german_scale,LogView::german_scale39,1028
+    enum {us_scale,us_scale_alt,german_scale,german_scale_alt}LogView::german_scale_alt39,1028
+
+logview.o,24
+S E$9Â~H‰H12,11443
+
+main.cc,1071
+Gtk::Menu * menu_input_rec;43,1250
+char   options_audiodev[options_audiodev46,1280
+double options_trigger;47,1310
+int    options_sampnr;48,1334
+int    options_sampfreq;49,1357
+int    options_width;50,1382
+int    options_height;51,1404
+int    options_adaptive_scale;52,1427
+enum optionType56,1461
+    OPT_AUDIODEV,optionType::OPT_AUDIODEV58,1479
+    OPT_TRIGGER,optionType::OPT_TRIGGER59,1497
+    OPT_SAMPFREQ,optionType::OPT_SAMPFREQ60,1514
+    OPT_SAMPNR,optionType::OPT_SAMPNR61,1532
+    OPT_WIDTH,optionType::OPT_WIDTH62,1548
+    OPT_HEIGHT,optionType::OPT_HEIGHT63,1563
+    OPT_HELP,optionType::OPT_HELP64,1579
+    OPT_ADAPTIVE,optionType::OPT_ADAPTIVE65,1593
+    OPT_DUMMYoptionType::OPT_DUMMY66,1611
+static const char appname_str[appname_str70,1630
+static struct option long_options[long_options73,1680
+void process_option(89,2555
+void print_help(119,3336
+int load_config(136,3885
+void set_option_defaults(193,5354
+void destroy_cb(207,5578
+void setRecInput(214,5630
+static gboolean on_delete_event(247,6676
+int main(253,6769
+
+Makefile,6383
+pkgdatadir 18,675
+pkglibdir 19,710
+pkgincludedir 20,743
+am__cd 21,784
+install_sh_DATA 22,843
+install_sh_PROGRAM 23,885
+install_sh_SCRIPT 24,923
+INSTALL_HEADER 25,960
+transform 26,993
+NORMAL_INSTALL 27,1031
+PRE_INSTALL 28,1050
+POST_INSTALL 29,1066
+NORMAL_UNINSTALL 30,1083
+PRE_UNINSTALL 31,1104
+POST_UNINSTALL 32,1122
+bin_PROGRAMS 33,1141
+subdir 34,1176
+DIST_COMMON 35,1187
+ACLOCAL_M4 39,1395
+am__aclocal_m4_deps 40,1433
+am__configure_deps 41,1482
+am__CONFIG_DISTCLEAN_FILES 43,1569
+mkinstalldirs 45,1677
+CONFIG_HEADER 46,1710
+CONFIG_CLEAN_FILES 47,1735
+am__installdirs 48,1756
+binPROGRAMS_INSTALL 49,1796
+PROGRAMS 50,1837
+am_gtkguitune_OBJECTS 51,1864
+gtkguitune_OBJECTS 54,2001
+gtkguitune_DEPENDENCIES 55,2047
+DEFAULT_INCLUDES 56,2073
+depcomp 57,2096
+am__depfiles_maybe 58,2137
+COMPILE 59,2167
+CCLD 61,2276
+LINK 62,2289
+CXXCOMPILE 63,2358
+CXXLD 65,2475
+CXXLINK 66,2490
+SOURCES 68,2570
+DIST_SOURCES 69,2602
+RECURSIVE_TARGETS 70,2639
+RECURSIVE_CLEAN_TARGETS 77,3018
+ETAGS 79,3133
+CTAGS 80,3147
+DIST_SUBDIRS 81,3161
+DISTFILES 82,3187
+distdir 83,3256
+top_distdir 84,3288
+am__remove_distdir 85,3313
+DIST_ARCHIVES 89,3470
+GZIP_ENV 90,3504
+distuninstallcheck_listfiles 91,3522
+distcleancheck_listfiles 92,3575
+ACLOCAL 93,3624
+AMTAR 94,3692
+AUTOCONF 95,3749
+AUTOHEADER 96,3814
+AUTOMAKE 97,3883
+AWK 98,3953
+CC 99,3964
+CCDEPMODE 100,3973
+CFLAGS 101,3998
+CPP 102,4014
+CPPFLAGS 103,4027
+CXX 104,4039
+CXXDEPMODE 105,4049
+CXXFLAGS 106,4075
+CYGPATH_W 107,4093
+DEFS 108,4110
+DEPDIR 109,4133
+ECHO_C 110,4148
+ECHO_N 111,4158
+ECHO_T 112,4170
+EGREP 113,4180
+EXEEXT 114,4201
+GREP 115,4211
+GTKMM_CFLAGS 116,4228
+GTKMM_LIBS 117,4782
+INSTALL 118,5105
+INSTALL_DATA 119,5135
+INSTALL_PROGRAM 120,5168
+INSTALL_SCRIPT 121,5197
+INSTALL_STRIP_PROGRAM 122,5225
+LDFLAGS 123,5269
+LIBOBJS 124,5280
+LIBS 125,5291
+LN_S 126,5299
+LTLIBOBJS 127,5312
+MAKEINFO 128,5325
+MKDIR_P 129,5390
+OBJEXT 130,5414
+PACKAGE 131,5425
+PACKAGE_BUGREPORT 132,5446
+PACKAGE_NAME 133,5467
+PACKAGE_STRING 134,5483
+PACKAGE_TARNAME 135,5501
+PACKAGE_VERSION 136,5520
+PATH_SEPARATOR 137,5539
+PKG_CONFIG 138,5558
+SET_MAKE 139,5591
+SHELL 140,5603
+STRIP 141,5619
+VERSION 142,5628
+abs_builddir 143,5642
+abs_srcdir 144,5679
+abs_top_builddir 145,5714
+abs_top_srcdir 146,5755
+ac_ct_CC 147,5794
+ac_ct_CXX 148,5809
+am__include 149,5825
+am__leading_dot 150,5847
+am__quote 151,5867
+am__tar 152,5880
+am__untar 153,5917
+bindir 154,5943
+build_alias 155,5971
+builddir 156,5986
+datadir 157,5999
+datarootdir 158,6024
+docdir 159,6054
+dvidir 160,6093
+exec_prefix 161,6112
+host_alias 162,6136
+htmldir 163,6150
+includedir 164,6170
+infodir 165,6201
+install_sh 166,6231
+libdir 167,6286
+libexecdir 168,6314
+localedir 169,6350
+localstatedir 170,6384
+mandir 171,6414
+mkdir_p 172,6442
+oldincludedir 173,6466
+pdfdir 174,6495
+prefix 175,6514
+program_transform_name 176,6534
+psdir 177,6566
+sbindir 178,6584
+sharedstatedir 179,6614
+srcdir 180,6645
+sysconfdir 181,6656
+target_alias 182,6683
+top_builddir 183,6699
+top_srcdir 184,6716
+SUBDIRS 185,6731
+gtkguitune_SOURCES 186,6746
+gtkguitune_LDADD 192,7004
+INCLUDES 193,7333
+all:all194,7883
+.SUFFIXES:.SUFFIXES197,7937
+.SUFFIXES:.SUFFIXES198,7948
+am--refresh:am--refresh199,7974
+$(srcdir)/Makefile.in:$(srcdir)/Makefile.in201,7991
+.PRECIOUS:.PRECIOUS214,8399
+Makefile:Makefile215,8419
+$(top_builddir)/config.status:$(top_builddir)/config.status225,8780
+$(top_srcdir)/configure:$(top_srcdir)/configure228,8902
+$(ACLOCAL_M4)$(ACLOCAL_M4230,8979
+config.h:config.h233,9066
+stamp-h1:stamp-h1239,9184
+$(srcdir)/config.h.in:$(srcdir)/config.h.in242,9320
+distclean-hdr:distclean-hdr247,9429
+install-binPROGRAMS:install-binPROGRAMS249,9470
+uninstall-binPROGRAMS:uninstall-binPROGRAMS262,9988
+clean-binPROGRAMS:clean-binPROGRAMS270,10255
+gtkguitune$(EXEEXT)gtkguitune$(EXEEXT272,10327
+mostlyclean-compile:mostlyclean-compile276,10489
+distclean-compile:distclean-compile279,10531
+.c.o:.c.o289,10753
+.c.obj:.c.obj296,10963
+.cc.o:.cc.o303,11209
+.cc.obj:.cc.obj310,11433
+$(RECURSIVE_TARGETS)$(RECURSIVE_TARGETS323,12117
+$(RECURSIVE_CLEAN_TARGETS)$(RECURSIVE_CLEAN_TARGETS348,12782
+tags-recursive:tags-recursive378,13579
+ctags-recursive:ctags-recursive382,13723
+ID:ID387,13870
+tags:tags395,14217
+TAGS:TAGS397,14229
+ctags:ctags425,15225
+CTAGS:CTAGS426,15238
+GTAGS:GTAGS439,15769
+distclean-tags:distclean-tags444,15881
+distdir:distdir447,15944
+dist-gzip:dist-gzip497,17809
+dist-bzip2:dist-bzip2501,17931
+dist-lzma:dist-lzma505,18042
+dist-tarZ:dist-tarZ509,18152
+dist-shar:dist-shar513,18260
+dist-zip:dist-zip517,18367
+dist dist-all:dist dist-all522,18467
+distcheck:distcheck529,18752
+distuninstallcheck:distuninstallcheck577,20699
+distcleancheck:distcleancheck586,21038
+check-am:check-am595,21373
+check:check596,21390
+all-am:all-am597,21413
+installdirs:installdirs598,21451
+installdirs-am:installdirs-am599,21486
+install:install603,21592
+install-exec:install-exec604,21619
+install-data:install-data605,21656
+uninstall:uninstall606,21693
+install-am:install-am608,21725
+installcheck:installcheck611,21803
+install-strip:install-strip612,21840
+mostlyclean-generic:mostlyclean-generic617,22088
+clean-generic:clean-generic619,22110
+distclean-generic:distclean-generic621,22126
+maintainer-clean-generic:maintainer-clean-generic624,22211
+clean:clean627,22363
+clean-am:clean-am629,22387
+distclean:distclean631,22445
+distclean-am:distclean-am635,22552
+dvi:dvi638,22644
+dvi-am:dvi-am640,22664
+html:html642,22673
+info:info644,22695
+info-am:info-am646,22717
+install-data-am:install-data-am648,22727
+install-dvi:install-dvi650,22745
+install-exec-am:install-exec-am652,22781
+install-html:install-html654,22819
+install-info:install-info656,22857
+install-man:install-man658,22895
+install-pdf:install-pdf660,22909
+install-ps:install-ps662,22945
+installcheck-am:installcheck-am664,22979
+maintainer-clean:maintainer-clean666,22997
+maintainer-clean-am:maintainer-clean-am671,23156
+mostlyclean:mostlyclean673,23216
+mostlyclean-am:mostlyclean-am675,23252
+pdf:pdf677,23309
+pdf-am:pdf-am679,23329
+ps:ps681,23338
+ps-am:ps-am683,23356
+uninstall-am:uninstall-am685,23364
+.MAKE:.MAKE687,23401
+.PHONY:.PHONY690,23485
+.NOEXPORT:.NOEXPORT709,24563
+
+Makefile.am,100
+SUBDIRS 4,30
+bin_PROGRAMS 6,57
+gtkguitune_SOURCES 8,90
+gtkguitune_LDADD 14,348
+INCLUDES 15,382
+
+Makefile.in,7139
+VPATH 17,650
+pkgdatadir 18,667
+pkglibdir 19,701
+pkgincludedir 20,733
+am__cd 21,773
+install_sh_DATA 22,832
+install_sh_PROGRAM 23,874
+install_sh_SCRIPT 24,912
+INSTALL_HEADER 25,949
+transform 26,982
+NORMAL_INSTALL 27,1020
+PRE_INSTALL 28,1039
+POST_INSTALL 29,1055
+NORMAL_UNINSTALL 30,1072
+PRE_UNINSTALL 31,1093
+POST_UNINSTALL 32,1111
+bin_PROGRAMS 33,1130
+subdir 34,1165
+DIST_COMMON 35,1176
+ACLOCAL_M4 39,1384
+am__aclocal_m4_deps 40,1422
+am__configure_deps 41,1471
+am__CONFIG_DISTCLEAN_FILES 43,1558
+mkinstalldirs 45,1666
+CONFIG_HEADER 46,1699
+CONFIG_CLEAN_FILES 47,1724
+am__installdirs 48,1745
+binPROGRAMS_INSTALL 49,1785
+PROGRAMS 50,1826
+am_gtkguitune_OBJECTS 51,1853
+gtkguitune_OBJECTS 54,1990
+gtkguitune_DEPENDENCIES 55,2036
+DEFAULT_INCLUDES 56,2062
+depcomp 57,2095
+am__depfiles_maybe 58,2136
+COMPILE 59,2166
+CCLD 61,2275
+LINK 62,2288
+CXXCOMPILE 63,2357
+CXXLD 65,2474
+CXXLINK 66,2489
+SOURCES 68,2569
+DIST_SOURCES 69,2601
+RECURSIVE_TARGETS 70,2638
+RECURSIVE_CLEAN_TARGETS 77,3017
+ETAGS 79,3132
+CTAGS 80,3146
+DIST_SUBDIRS 81,3160
+DISTFILES 82,3186
+distdir 83,3255
+top_distdir 84,3287
+am__remove_distdir 85,3312
+DIST_ARCHIVES 89,3469
+GZIP_ENV 90,3503
+distuninstallcheck_listfiles 91,3521
+distcleancheck_listfiles 92,3574
+ACLOCAL 93,3623
+AMTAR 94,3643
+AUTOCONF 95,3659
+AUTOHEADER 96,3681
+AUTOMAKE 97,3707
+AWK 98,3729
+CC 99,3741
+CCDEPMODE 100,3751
+CFLAGS 101,3775
+CPP 102,3793
+CPPFLAGS 103,3805
+CXX 104,3827
+CXXDEPMODE 105,3839
+CXXFLAGS 106,3865
+CYGPATH_W 107,3887
+DEFS 108,3911
+DEPDIR 109,3925
+ECHO_C 110,3943
+ECHO_N 111,3961
+ECHO_T 112,3979
+EGREP 113,3997
+EXEEXT 114,4013
+GREP 115,4031
+GTKMM_CFLAGS 116,4045
+GTKMM_LIBS 117,4075
+INSTALL 118,4101
+INSTALL_DATA 119,4121
+INSTALL_PROGRAM 120,4151
+INSTALL_SCRIPT 121,4187
+INSTALL_STRIP_PROGRAM 122,4221
+LDFLAGS 123,4269
+LIBOBJS 124,4289
+LIBS 125,4309
+LN_S 126,4323
+LTLIBOBJS 127,4337
+MAKEINFO 128,4361
+MKDIR_P 129,4383
+OBJEXT 130,4403
+PACKAGE 131,4421
+PACKAGE_BUGREPORT 132,4441
+PACKAGE_NAME 133,4481
+PACKAGE_STRING 134,4511
+PACKAGE_TARNAME 135,4545
+PACKAGE_VERSION 136,4581
+PATH_SEPARATOR 137,4617
+PKG_CONFIG 138,4651
+SET_MAKE 139,4677
+SHELL 140,4699
+STRIP 141,4715
+VERSION 142,4731
+abs_builddir 143,4751
+abs_srcdir 144,4781
+abs_top_builddir 145,4807
+abs_top_srcdir 146,4845
+ac_ct_CC 147,4879
+ac_ct_CXX 148,4901
+am__include 149,4925
+am__leading_dot 150,4953
+am__quote 151,4989
+am__tar 152,5013
+am__untar 153,5033
+bindir 154,5057
+build_alias 155,5075
+builddir 156,5103
+datadir 157,5125
+datarootdir 158,5145
+docdir 159,5173
+dvidir 160,5191
+exec_prefix 161,5209
+host_alias 162,5237
+htmldir 163,5263
+includedir 164,5283
+infodir 165,5309
+install_sh 166,5329
+libdir 167,5355
+libexecdir 168,5373
+localedir 169,5399
+localstatedir 170,5423
+mandir 171,5455
+mkdir_p 172,5473
+oldincludedir 173,5493
+pdfdir 174,5525
+prefix 175,5543
+program_transform_name 176,5561
+psdir 177,5611
+sbindir 178,5627
+sharedstatedir 179,5647
+srcdir 180,5681
+sysconfdir 181,5699
+target_alias 182,5725
+top_builddir 183,5755
+top_srcdir 184,5785
+SUBDIRS 185,5811
+gtkguitune_SOURCES 186,5826
+gtkguitune_LDADD 192,6084
+INCLUDES 193,6116
+all:all194,6142
+.SUFFIXES:.SUFFIXES197,6196
+.SUFFIXES:.SUFFIXES198,6207
+am--refresh:am--refresh199,6233
+$(srcdir)/Makefile.in:$(srcdir)/Makefile.in201,6250
+.PRECIOUS:.PRECIOUS214,6658
+Makefile:Makefile215,6678
+$(top_builddir)/config.status:$(top_builddir)/config.status225,7039
+$(top_srcdir)/configure:$(top_srcdir)/configure228,7161
+$(ACLOCAL_M4)$(ACLOCAL_M4230,7238
+config.h:config.h233,7325
+stamp-h1:stamp-h1239,7443
+$(srcdir)/config.h.in:$(srcdir)/config.h.in242,7579
+distclean-hdr:distclean-hdr247,7688
+install-binPROGRAMS:install-binPROGRAMS249,7729
+uninstall-binPROGRAMS:uninstall-binPROGRAMS262,8247
+clean-binPROGRAMS:clean-binPROGRAMS270,8514
+gtkguitune$(EXEEXT)gtkguitune$(EXEEXT272,8586
+mostlyclean-compile:mostlyclean-compile276,8748
+distclean-compile:distclean-compile279,8790
+.c.o:.c.o289,9252
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	source=@AMDEP_TRUE@@am__fastdepCC_FALSE@	source292,9398
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=@AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR293,9484
+.c.obj:.c.obj296,9616
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	source=@AMDEP_TRUE@@am__fastdepCC_FALSE@	source299,9781
+@AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR=@AMDEP_TRUE@@am__fastdepCC_FALSE@	DEPDIR300,9867
+.cc.o:.cc.o303,10016
+@AMDEP_TRUE@@am__fastdepCXX_FALSE@	source=@AMDEP_TRUE@@am__fastdepCXX_FALSE@	source306,10168
+@AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=@AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR307,10255
+.cc.obj:.cc.obj310,10399
+@AMDEP_TRUE@@am__fastdepCXX_FALSE@	source=@AMDEP_TRUE@@am__fastdepCXX_FALSE@	source313,10570
+@AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=@AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR314,10657
+$(RECURSIVE_TARGETS)$(RECURSIVE_TARGETS323,11242
+$(RECURSIVE_CLEAN_TARGETS)$(RECURSIVE_CLEAN_TARGETS348,11907
+tags-recursive:tags-recursive378,12704
+ctags-recursive:ctags-recursive382,12848
+ID:ID387,12995
+tags:tags395,13342
+TAGS:TAGS397,13354
+ctags:ctags425,14350
+CTAGS:CTAGS426,14363
+GTAGS:GTAGS439,14894
+distclean-tags:distclean-tags444,15006
+distdir:distdir447,15069
+dist-gzip:dist-gzip497,16934
+dist-bzip2:dist-bzip2501,17056
+dist-lzma:dist-lzma505,17167
+dist-tarZ:dist-tarZ509,17277
+dist-shar:dist-shar513,17385
+dist-zip:dist-zip517,17492
+dist dist-all:dist dist-all522,17592
+distcheck:distcheck529,17877
+distuninstallcheck:distuninstallcheck577,19824
+distcleancheck:distcleancheck586,20163
+check-am:check-am595,20498
+check:check596,20515
+all-am:all-am597,20538
+installdirs:installdirs598,20576
+installdirs-am:installdirs-am599,20611
+install:install603,20717
+install-exec:install-exec604,20744
+install-data:install-data605,20781
+uninstall:uninstall606,20818
+install-am:install-am608,20850
+installcheck:installcheck611,20928
+install-strip:install-strip612,20965
+mostlyclean-generic:mostlyclean-generic617,21213
+clean-generic:clean-generic619,21235
+distclean-generic:distclean-generic621,21251
+maintainer-clean-generic:maintainer-clean-generic624,21336
+clean:clean627,21488
+clean-am:clean-am629,21512
+distclean:distclean631,21570
+distclean-am:distclean-am635,21677
+dvi:dvi638,21769
+dvi-am:dvi-am640,21789
+html:html642,21798
+info:info644,21820
+info-am:info-am646,21842
+install-data-am:install-data-am648,21852
+install-dvi:install-dvi650,21870
+install-exec-am:install-exec-am652,21906
+install-html:install-html654,21944
+install-info:install-info656,21982
+install-man:install-man658,22020
+install-pdf:install-pdf660,22034
+install-ps:install-ps662,22070
+installcheck-am:installcheck-am664,22104
+maintainer-clean:maintainer-clean666,22122
+maintainer-clean-am:maintainer-clean-am671,22281
+mostlyclean:mostlyclean673,22341
+mostlyclean-am:mostlyclean-am675,22377
+pdf:pdf677,22434
+pdf-am:pdf-am679,22454
+ps:ps681,22463
+ps-am:ps-am683,22481
+uninstall-am:uninstall-am685,22489
+.MAKE:.MAKE687,22526
+.PHONY:.PHONY690,22610
+.NOEXPORT:.NOEXPORT709,23688
+
+missing,727
+scriptversion=4,75
+run=35,1326
+  configure_ac=42,1531
+    run=61,2041
+    exit 104,3442
+    fi123,3869
+    fi135,4281
+    touch aclocal.m4m4148,4669
+    touch configure157,4945
+    files=166,5239
+      *:*) touch_files=171,5420
+      *) touch_files=173,5519
+    touch $touch_files176,5583
+	   while read f; do touch "$f"; done187,5964
+    file=198,6278
+    fi210,6604
+        eval LASTARG=221,6940
+	    SRCFILE=228,7114
+	    fi231,7226
+    fi240,7375
+        eval LASTARG=251,7703
+	    fi257,7870
+    fi263,7968
+    file=273,8255
+    fi281,8508
+    file=293,9023
+      infile=297,9220
+    firstarg=325,10007
+	    firstarg=329,10069
+	    firstarg=335,10189
+    exit 345,10488
+    exit 356,10927
+
+osziview.cc,819
+#define SCALE_HEIGHT 36,985
+#define xscr 38,1010
+#define yscr 39,1026
+#define wscr 40,1041
+#define hscr 41,1075
+OsziView::OsziView(43,1124
+OsziView::~OsziView(65,1960
+void OsziView::calc_minmax(70,2034
+void OsziView::calc_freq(110,3328
+void OsziView::recalc(179,5703
+void OsziView::paint_sample(185,5772
+void OsziView::paint_marks(217,6749
+void OsziView::copy_sample_data(242,7446
+void OsziView::setSampleData(249,7679
+void OsziView::setSampleData(263,7938
+void OsziView::setSampleFreq(277,8218
+void OsziView::setAdaptive(280,8291
+void OsziView::setTrigFact(283,8377
+double OsziView::getTrigFact(286,8452
+void OsziView::invalidate(288,8506
+void OsziView::invalidate_sample(303,8885
+void OsziView::paint_scale(315,9134
+bool OsziView::on_expose_event(381,11070
+void OsziView::on_realize(395,11392
+
+osziview.h,233
+class OsziView 23,753
+    double  get_freq OsziView::get_freq31,851
+    enum SampFmt OsziView::SampFmt50,1427
+    enum SampFmt { U8,OsziView::SampFmt::U850,1427
+    enum SampFmt { U8, S16_LE OsziView::SampFmt::S16_LE50,1427
+
+osziview.o,38
+ELFELF1,0
+ƒD$€ƒD$D$€ƒD9,11036
+
+README,166
+    published by the Free Software Foundation;12,383
+    This program is distributed in the hope that it will be useful,14,431
+    but WITHOUT ANY WARRANTY;15,499
+
+resources.h,478
+#define LEVTRIG(20,1078
+#define LEVTRIGN(21,1141
+#define POSTRIG(23,1234
+#define POSTRIG_S16(24,1297
+#define D_NOTE 27,1401
+#define D_NOTE_SQRT 30,1482
+#define D_NOTE_LOG 33,1557
+#define LOG_2 36,1629
+#define KAMMERTON_PHYS 39,1719
+#define KAMMERTON_WIEN 41,1756
+#define KAMMERTON_NORM 43,1787
+#define KAMMERTON_LOG_PHYS 46,1869
+#define KAMMERTON_LOG_WIEN 48,1960
+#define KAMMERTON_LOG_NORM 50,2047
+#define NO 52,2089
+#define YES 53,2103
+inline int Abs(55,2118
+
+stamp-h1,0
+
+NEWS,0
+
+main.o,0
+
+gtkguitune,0
+
+ChangeLog,0
+
+AUTHORS,0
+
+aboutbox.o,0
