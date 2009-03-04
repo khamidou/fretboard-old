@@ -103,16 +103,9 @@ void terminate_interp(void)
 
 void call_callback_function(float frequency)
 {
-	PyObject *pArgs, *pValue;
 
-/*	pArgs = PyTuple_New(1); */
-/* pValue = PyFloat_FromDouble((double) frequency); */
-/* 	PyTuple_SetItem(pArgs, 0, pValue); */
-/* 	pValue = PyObject_CallObject(pFunc, pArgs); */
-	printf("truc frequency : %5.2f\n", frequency);
-	if(PyObject_CallFunction(pFunc, "f", frequency) == NULL)
+	float freq = rint(frequency);
+	if(PyObject_CallFunction(pFunc, "f", freq) == NULL)
 		PyErr_Print();
-/*	Py_DECREF(pArgs);
-	Py_DECREF(pValue);
-*/
+
 } 
