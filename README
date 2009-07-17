@@ -1,14 +1,3 @@
-WARNING : THIS IS AN OLD APP
-
-Fretboard comes into two versions :
-- the official, available here : http://github.com/khamidou/fretboard/tree/master
-- this deprecated version.
-
-This version is probably faster than the bleeding edge, but it's unmaintanable and has unneeded
-dependecies (originally, I based fretboard on gtkguitune, a gtkmm-based guitar tuner, which 
-explains that it depends on gtkmm though it's a daemon).
-Use it only if you find the official version too slow.
-
 Fretboard,
 
     Copyright (c) 2009 Karim Hamidou <karim@lambda-expr.org>
@@ -34,13 +23,12 @@ What is Fretboard ?
    input device.
    Fretboard works only under the X Window system, however, it may be
    possible to port it to other systems than linux.
-   It is actually an oscilloscope which counts the passes between two
-   trigger levels per time, calculates the frequency and shows the
-   tone on a tone-scale.
+   It consists of an oscilloscope which counts the passes between two
+   trigger levels per time and calculates the corresponding frequency.
 
 Resources
 ---------
-   You need to have gtk and gtk-- (1.2.1 or later), as well as
+   You need to have gtk and gtkmm (1.2.1 or later), as well as
    xautomation (http://hoopajoo.net/projects/xautomation.html)
    installed.
    
@@ -51,7 +39,7 @@ Customizing
    customize its behaviour. This is for that purpose that I
    added Python support to it. Each time a note is read,
    fretboard calls a python function named callback() defined
-   in ~/.fretboard/callback.py.
+   in ~/.fretboard/fretboard-callback.py.
    For more informations, see the commented examples in the sampleconfig 
    directory.
 
@@ -65,7 +53,7 @@ Design
    think I will fix it because it works, and that I have better things to
    do than fixing some unbeliveably ugly code (you don't belive me ? 
    open guitune.cc and go to line 445. Now, try to understand what does the
-   function proc_audio do).
+   function proc_audio).
 
 How to build
 ------------
